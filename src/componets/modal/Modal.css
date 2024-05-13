@@ -1,0 +1,25 @@
+.Modal{
+    display: none;
+    width: 80vh;
+    height: 50vh;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    background:#000000a1;
+    top: 150px;
+    /* left: 50px; */
+    right: 500px;
+    z-index: 55555;
+}
+.stickyModal{
+    display: flex;
+}
+.ModalLayout{
+    padding: 20px 30px;
+    background-color: white;
+}
+.forms{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
